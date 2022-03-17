@@ -24,7 +24,9 @@
     "@babel/preset-react": "^7.16.7",
     "@types/react": "^17.0.40",
     "@types/react-dom": "^17.0.13",
+    "@types/styled-components": "^5.1.24",
     "babel-loader": "^8.2.3",
+    "babel-plugin-styled-components": "^2.0.6",
     "html-webpack-plugin": "^5.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -33,5 +35,8 @@
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.3"
   }
 }

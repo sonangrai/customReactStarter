@@ -1,5 +1,7 @@
 import * as React from "react";
+import { AppStyle } from "./App.stlyed";
+
 function App() {
-  return <div>Custom React Starter (TS)</div>;
+  return <AppStyle>Custom React Starter (TS)</AppStyle>;
 }
 export default App;
