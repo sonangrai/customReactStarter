@@ -5,4 +5,4 @@ Its easy to customize everything if its custom.
 
 ## 🤪
 
-With Styled Components
+With Styled Components and Server Side Rendering (SSR)
