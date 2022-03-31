@@ -5,6 +5,7 @@ import * as path from "path";
 import * as React from "react";
 import * as ReactDOMServer from "react-dom/server";
 import App from "../src/app";
+import "dotenv/config";
 
 function handleRender(req: Request, res: Response) {
   // Renders our Hello component into an HTML string
@@ -33,7 +34,10 @@ app.use("/dist", express.static(path.join(__dirname, "dist")));
 // Serve requests with our handleRender function
 app.get("*", handleRender);
 
+//PORT
+const PORT = process.env.PORT || 3000;
+
 // Start server
-app.listen(3000, () => {
-  console.log("Server up");
+app.listen(PORT, () => {
+  console.log("Server up in ", PORT);
 });
